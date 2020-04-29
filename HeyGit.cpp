@@ -6,7 +6,7 @@
 
 int main()
 {
-    std::string developers[]{ "Virgil" };
+    std::string developers[]{ "Virgil, Tyler" };
     std::cout << "Developers who have used this repo\n";
     for (std::string x : developers)
     {
