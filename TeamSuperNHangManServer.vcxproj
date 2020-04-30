@@ -138,7 +138,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="HangGameProcess.cpp" />
     <ClCompile Include="HeyGit.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HangGameProcess.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

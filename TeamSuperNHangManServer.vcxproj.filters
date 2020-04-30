@@ -18,5 +18,13 @@
     <ClCompile Include="HeyGit.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="HangGameProcess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HangGameProcess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
