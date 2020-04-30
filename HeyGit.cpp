@@ -6,7 +6,8 @@
 
 int main()
 {
-    std::string developers[]{ "Virgil" };
+    // Enter the new line character (\n) after the last name listed and input your name after it
+    std::string developers[]{ "Virgil\nEdgar" };
     std::cout << "Developers who have used this repo\n";
     for (std::string x : developers)
     {
