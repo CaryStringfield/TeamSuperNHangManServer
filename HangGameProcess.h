@@ -53,7 +53,7 @@ public:
 
     void wordGuess(string guess, string gameID, string username) {
 
-        if (guess.equals(word); {
+        if (guess.equals(word)) {
             //check for new letters entered. new letters being 
             //letters that have not been guessed this round
             //player gets 10 points per letter.
@@ -70,7 +70,7 @@ public:
     }
 
     //Checks for LastRound
-    bool  lastRound(gameID) {
+    bool  lastRound(string gameID) {
         //called by checkWordGuess when the guess is correct and the round
         //has been won.  If that was the final round an overall winner
         //can be declared
@@ -89,7 +89,7 @@ public:
         //store those points in model
     }
 
-    getGameUpdate(string gameID) {
+    void getGameUpdate(string gameID) {
 
         //gather all relavent info from this class and the model classes
         //send to marshler.
